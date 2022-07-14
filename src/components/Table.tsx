@@ -14,7 +14,7 @@ import useFetch from "../hooks/useFetch";
  */
 export default function Table() {
   const { data, isPending, error } = useFetch(
-    "http://dh-interviewbe.herokuapp.com/api/records/"
+    "https://dh-interviewbe.herokuapp.com/api/records/"
   );
 
   //table data list
@@ -42,7 +42,7 @@ export default function Table() {
     const deletedTableData = tableData.filter((data) => data._id !== id);
     setTableData(deletedTableData);
 
-    fetch(`http://dh-interviewbe.herokuapp.com/api/records/${id}`, {
+    fetch(`https://dh-interviewbe.herokuapp.com/api/records/${id}`, {
       method: "DELETE",
     })
       .then((response) => {
@@ -68,7 +68,7 @@ export default function Table() {
       return null;
     });
 
-    fetch(`http://dh-interviewbe.herokuapp.com/api/records/`, {
+    fetch(`https://dh-interviewbe.herokuapp.com/api/records/`, {
       method: "DELETE",
       body: JSON.stringify({ deleteIDs }),
       // body: JSON.stringify(addRecord),
@@ -104,7 +104,7 @@ export default function Table() {
 
     // setTableData(tableDataAfterAdd);
 
-    fetch(`http://dh-interviewbe.herokuapp.com/api/records/create`, {
+    fetch(`https://dh-interviewbe.herokuapp.com/api/records/create`, {
       method: "POST",
       body: JSON.stringify(newRecord),
       // body: JSON.stringify(addRecord),
