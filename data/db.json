@@ -1,0 +1,40 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Billy",
+      "email": "Bill@gmail.com",
+      "phone": "0909123456"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "Bobo@gmail.com",
+      "phone": "0909123001"
+    },
+    {
+      "id": 3,
+      "name": "Jenny",
+      "email": "Jenny@gmail.com",
+      "phone": "0909123002"
+    },
+    {
+      "id": 4,
+      "name": "Marry Jane",
+      "email": "Mary@gmail.com",
+      "phone": "09091239998"
+    },
+    {
+      "id": 5,
+      "name": "Henry Back",
+      "email": "Henry@gmail.com",
+      "phone": "0909123097123123"
+    },
+    {
+      "id": 8,
+      "name": "Kevin Keep",
+      "email": "KevinKe@gmail.com",
+      "phone": "0909123111"
+    }
+  ]
+}

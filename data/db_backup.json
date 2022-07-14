@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Billy",
+      "email": "Bill@gmail.com",
+      "phone": "0909123456"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "Bobo@gmail.com",
+      "phone": "0909123001"
+    },
+    {
+      "id": 3,
+      "name": "Jenny",
+      "email": "Jenny@gmail.com",
+      "phone": "0909123002"
+    },
+    {
+      "id": 4,
+      "name": "Marry CHnage",
+      "email": "Mary@gmail.com",
+      "phone": "0909123003"
+    }
+  ]
+}
