@@ -16,7 +16,7 @@ export default function EditRow() {
 
   //getting data with url and id
   const { singleData, isPending, error } = useFetch(
-    "http://localhost:4000/api/records/" + id
+    "http://dh-interviewbe.herokuapp.com/api/records/" + id
   );
 
   //states to store users' inputs
@@ -59,7 +59,7 @@ export default function EditRow() {
       phone: phone || singleData.phone,
     };
 
-    fetch(`http://localhost:4000/api/records/${id}`, {
+    fetch(`http://dh-interviewbe.herokuapp.com/api/records/${id}`, {
       method: "PATCH",
       body: JSON.stringify(editRecord),
       headers: {
